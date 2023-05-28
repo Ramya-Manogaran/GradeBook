@@ -1,0 +1,54 @@
+dotnet build
+dotnet run
+dotnet test
+dotnet new sln
+dotnet sln add path\project.csproj
+
+dotnet sln add test\GradeBook.Tests\GradeBook.Tests.csproj
+dotnet sln add src\GradeBook\GradeBook.csproj
+
+
+
+        public double Sum(){
+            double sum = 0.0;
+            foreach(var grade in grades){
+                sum += grade;
+            }
+            return sum;
+        }
+
+
+Reference type is a type where variable holds an address or points to the type that it is referring to.
+Value type is a type where the variable of that type holds the value itself directly in the memory.
+
+Class is a reference type
+Int, Float, double are all value types (defined as struct in metadata)
+
+C# default is always always always 100% Pass by Value unless specifically mentioned as reference
+
+string is defined as reference type but sometimes it behaves as a value type, it is special 
+strings are immutable
+
+A delegate is a type that represents references to methods with a particular parameter list and return type. 
+When you instantiate a delegate, you can associate its instance with any method with a compatible signature and return type
+
+Multi cast delegate
+
+an event can be a member of a Class
+
+OOPS
+
+Pillars of OOP
+
+1. Encapsulation (hide details, methods, props, access modifiers)
+2. Inheritance
+3. Polymorphism (objects of same type behaving differently)
+
+DRY- Don't Repeat Yourself
+
+Inheritance(Base class--> Derived class)
+
+Every class has a base class (Object)
+Equals, ReferenceEquals, ToString, GetHashCode, GetType everything comes from this object class
+
+

@@ -9,8 +9,8 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/src/GradeBook/bin/Debug/net5.0/GradeBook.dll",
-            "args": [],
+            "program": "${workspaceFolder}/src/GradeBook/bin/Debug/net6.0/GradeBook.dll",
+            "args": ["Ramya"],
             "cwd": "${workspaceFolder}/src/GradeBook",
             "console": "internalConsole",
             "stopAtEntry": false
